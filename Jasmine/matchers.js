@@ -19,7 +19,7 @@ describe("Beyond toBe, a full set of matchers", function() {
     a = 2;
     b = -1;
     c = 3.14;
-    var pi = 3.1415926;
+    var pi = 3.141592;
 
     expect(a).toBeGreaterThan(b);
     expect(b).toBeLessThan(0);
