@@ -21,7 +21,7 @@ describe("Person", function() {
   });
 });
 
-// cherck a specific argument
+// check a specific argument
 describe("Person", function() {
   it("greets the world", function() {
     var fakePerson = new Person();

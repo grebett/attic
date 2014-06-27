@@ -19,7 +19,7 @@ describe("Asynchronous specs", function() {
 
 //By default jasmine will wait for 5 seconds for an asynchronous spec to finish
 
-describe("But you can change it, since long asynchronous specs", function() {
+describe("But you can change it, because long asynchronous specs", function() {
   var originalTimeout;
 
   beforeEach(function() {
