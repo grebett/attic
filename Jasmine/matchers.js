@@ -64,3 +64,14 @@ describe("Beyond toBe, a full set of matchers", function() {
     expect(bar).toThrow();
   });
 });
+
+// Not enough ? Make your own !
+describe("I want more matchers", function() {
+  beforeEach(function() {
+    this.addMatchers({
+      toBeDivisibleByTwo: function () {
+        return (this.equal % 2) === 0;
+      }
+    });
+  });
+});
